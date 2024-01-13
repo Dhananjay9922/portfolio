@@ -22,9 +22,9 @@
     <div class="img">
         <img src="Images/man-removebg-preview (1).png" class="photo">
         <span class="info">
-            <h1> Hello, I'm <br>
-            Dhananjay Aher </h1>
-            <p>Front-End Web Developer</p>
+            <h1> Hello, I'm </h1>
+            <h1>Dhananjay Aher </h1>
+            <p><span id="f">Front-End Web Developer </span></p>
         </span>
     </div>
 </section>
@@ -62,28 +62,28 @@
 <section id="Skills">
     <table align="center" class="skills">
         <h2 class="topic">Skills</h2><br>
-        <tr>
+        <tr class="s">
             <td><img src="Images/html.png" height="60px" ></td>
             <td class="nm">HTML</td>
             <td><a href="https://dhananjay9922.github.io/Creamy-cakes-Website/"><button class="pro">Project</button></a></td>
         </tr>
-        <tr>
+        <tr class="s">
             <td><img src="Images/css.png" height="60px" ></td>
             <td class="nm">CSS</td>
             <td><a href="https://dhananjay9922.github.io/Starbucks/"><button class="pro">Project1</button></a>
             <a href="https://dhananjay9922.github.io/Simple-Game/"><button class="pro">Project2</button></a></td>
         </tr>
-        <tr>
+        <tr class="s">
             <td><img src="Images/1269842_development_install_javascript_js_node_icon.png" height="60px" ></td>
             <td class="nm">JavaScript</td>
             <td><a href="https://dhananjay9922.github.io/Calculator/"><button class="pro">Project</button></a></td>
         </tr>
-        <tr>
+        <tr class="s">
             <td><img src="Images/java.png" height="60px" ></td>
             <td class="nm">Java</td>
             <td><button class="pro">Pending...</button></td>
         </tr>
-        <tr>
+        <tr class="s">
             <td><div class="space"></div></td>
             <td><div class="space"></div></td>
             <td><div class="space"></div></td>
@@ -92,23 +92,33 @@
     </table>
 </section>
 
-
-<section id="Contact">
-    <div class="form">
+<section id="Contact"></section>
+<div id="contact">
+    <div class="login-box">
         <form action="">
-            <h1>Contact Me</h1>
-            Name: <input type="text" placeholder="Your full name" required><br>
-            
-            Email: <input type="text" placeholder="abc@gmail.com" required><br>
-            Phone Number: <input type="number" required><br>
-            Gender : <input type="radio" >Male
-            <input type="radio" >Female <br>
-            <input type="button" value="Sublit" name="Submit"> finsweet  extension fow webflow
+            <h2 class="heading">Contact Me</h2>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="pencil"></ion-icon></span>
+                <input type="text" required>
+                <label>Name</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="home"></ion-icon></span>
+                <input type="text" required>
+                <label>City</label>
+            </div>
+            <button type="submit">Submit</button>
         </form>
     </div>
-</section>
+</div>
 
 
-</script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
